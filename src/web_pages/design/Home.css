@@ -1,0 +1,323 @@
+::-webkit-scrollbar {
+  width: 5px;
+  /* background-color: #f12c2c;  */
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  /* border-radius: 10px;  */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9e9e9e;
+}
+::-webkit-scrollbar-track {
+  background-color: #000000;
+  /* border-radius: 10px; */
+}
+
+.fullscreen {
+  background-color: rgb(12, 41, 6);
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  /* padding-top: 150vh; */
+}
+.section {
+  padding: 20px 50px 20px 50px;
+  /* border-bottom: 2px solid black; */
+  /* padding: 0 20px 0 0; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.secHead {
+  /* background-color: rgb(218, 112, 112); */
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.section .desc {
+  /* background: rgba(80, 80, 80, 0.11);
+  backdrop-filter: blur(5px); */
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.section .text {
+  text-wrap: wrap;
+  font-size: 25px;
+  /* height: 100%; */
+  width: 60%;
+  min-height: 230px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+}
+.section .sect {
+  /* background-color: rebeccapurple; */
+  aspect-ratio: 1;
+}
+.section button {
+  margin-top: 20px;
+  /* background-color: rgb(21, 56, 109);
+      padding: 10px;font-size: 20px;border-radius: 15px;font-weight: bold;color: white; */
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  bottom: 130px;
+  border-radius: 30px 30px 30px 30px;
+  cursor: pointer;
+  left: 20px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 2;
+  width: 17%;
+  font-size: 17px;
+}
+.section button:hover {
+  background-color: rgba(255, 255, 255, 0.555);
+}
+.Hello {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navs {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.644);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-left: 10px;
+  /* font-family: "Dancing Script", cursive; */
+  font-family: 'Mangolia Script, cursive';
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #030303;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-items a:hover::after,
+.nav-items a:focus::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #2a2a2a; /* Same color as text */
+  left: 0;
+  bottom: -5px;
+}
+
+.wishlist-icon {
+  font-size: 20px;
+  /* color: red; */
+}
+.apple {
+  background: black;
+  opacity: 0.8;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 19;
+  top: 0;
+  left: 0;
+}
+
+/* ER TOLAI BOOKMARJKS */
+.slide-container {
+  width: 250px;
+  height: 100vh;
+  top: 0;
+  z-index: 1000;
+  font-size: 40px;
+  font-weight: 600;
+  position: fixed;
+  right: -350px;
+  background-color: rgba(5, 34, 17, 0.959);
+  color: white;
+  transition: right 1s ease-in-out; /* Slide effect */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(30px);
+}
+
+.slide-container.open {
+  right: 0;
+}
+
+.slide-container ul {
+  list-style-type: disc; /* Remove bullet points */
+  padding: 20px;
+  margin: 0;
+}
+
+.slide-container ul li {
+  margin: 17px 0; /* Spacing between list items */
+  color: #fff; /* Text color */
+  font-size: 20px;
+  font-weight: 350;
+}
+
+.slide-container ul li:hover {
+  color: #9ad691; /* Change color on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* .plant-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plant-info {
+  margin-top: 10px;
+  padding: 3.2rem 1.8rem;
+  margin: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.15);
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.plants {
+  display: flex;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.plant-details {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.plant-card-list {
+  font-size: 1rem;
+  font-weight: 400;
+} */
+.secHead {
+  grid-column: -1/1;
+}
+.section-seed {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  justify-self: center;
+}
+/* 
+.plant-info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  justify-self: center;
+} */
+
+.plant-cardgod {
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  display: flex; flex-direction: row;justify-content: space-between;
+  width: 100%;
+  /* background-color: red; */
+  margin: 0 5px 0 5px;
+}
+
+.plant-infoss {
+  /* background: red; */
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  margin-top: 10px;
+  margin: 0.6rem;
+  align-items: center;
+  row-gap: 20px;
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.15);
+  border: 2px solid rgb(0, 0, 0);
+  /* border-radius: 20px; */
+  display: flex;flex-direction: row;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.plants {
+  /* width: 50%; */
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+
+.plant-details {
+  margin-top: 20px;
+  /* display: flex; */
+  justify-content: space-around;
+  width: 100%;
+}
+
+.plant-cardgod-list {
+  /* font-size: 1rem; */
+  font-size: 21px;
+  font-weight: 400;
+}
+.botter{
+  position: absolute;cursor: pointer;
+  height: 100px;width: 100px;
+  bottom: 10px;right: 10px;z-index: 10;
+}
+/* .chatter{
+  background: white;border-radius: 10px;overflow: hidden;
+  position: absolute;bottom: 10px;right: 10px;z-index: 12;
+  height: 60%;width: 350px;
+  display: flex;justify-content: flex-start;align-items: flex-start;
+}.chatterhead{
+  padding: 15px 20px 15px 20px;background: rgb(3, 189, 28);width: 100%;
+  display: flex;justify-content: space-between;flex-direction: row;
+  font-weight: bold;font-family: 'Times New Roman', Times, serif;font-size: 25px;
+} */

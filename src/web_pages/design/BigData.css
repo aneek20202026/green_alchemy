@@ -1,0 +1,139 @@
+.containerssss {
+  background-size: cover; /* Cover the entire page */
+  background-repeat: no-repeat; /*Do not repeat the image */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /*Keep the background fixed during scrolling */
+  height: 100vh;
+  padding: 0 3.2rem;
+  overflow-y: scroll;
+  color: white;
+  position: absolute;
+  /* z-index: -1; */
+}.containerssss.secx{
+  overflow: hidden;
+}
+.asses{
+  background: rgba(255, 255, 255, 0.733);border-radius: 30px;
+  /* backdrop-filter: opacity(0.5); */
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-size: 4.8em;
+}
+
+.plant-main {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.plant-main-text {
+  margin-top: 3.2rem;
+  font-weight: 400;font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  /* background: red; */
+}
+
+.main-plant-img {
+  width: 100%;
+}
+.image-container {
+  position: relative;
+}
+.image-container .icon-speaker {
+  position: absolute; /* Position the icon relative to the container */
+  top: 10px; /* Adjust the top position */
+  right: 10px; /* Adjust the right position */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  padding: 10px; /* Add some padding around the icon */
+  border-radius: 50%; /* Make the background circular */
+}
+
+/* Icon style */
+.icon-speaker {
+  color: white; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+.icondsadassa{
+  /* background: red; */
+  /* height: 5%;aspect-ratio: 1; */
+  /* right: 0; */
+  /* margin-left: 19%; */
+  /* position: absolute; */
+  /* z-index: 2px; */
+  display: flex; justify-content: flex-end;align-items: center;padding: 15px 10px 0 10px;
+}
+.main-content {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  justify-self: center;
+}
+
+.plant-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  /* background-color: red; */
+  margin: 0 5px 0 5px;
+}
+
+.plant-info {
+  background: transparent;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  margin-top: 10px;
+  /* padding: 3.2rem 1.8rem; */
+  margin: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.15);
+  border: 2px solid rgb(0, 0, 0);
+  /* border-radius: 20px; */
+}
+
+.card-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.plants {
+  width: 50%;aspect-ratio: 1;
+  border-radius: 10px;
+}
+
+.plant-details {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.plant-card-list {
+  /* font-size: 1rem; */
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.showers{
+  position: absolute;z-index: 2;
+  left: 0;top:0;
+  height: 100vh;width: 100%;
+  background: rgba(0, 0, 0, 0.795);backdrop-filter: blur(3px);
+}.buttoner{
+  background: white;
+  position: absolute;z-index: 3;right: 20px;top:20px;padding: 5px 10px 5px 10px;
+  border-radius: 15px;
+  /* height: 100px;
+  width: 50px; */
+}
