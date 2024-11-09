@@ -89,24 +89,24 @@ If you encounter issues where npm run build fails to minify, consider the follow
 ### Project Screenshot
 
 The introductory page of website -
-![Project Screenshot](Screenshot 2024-11-08 194159.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194159.png)
 Homepage of website -
-![Project Screenshot](Screenshot 2024-11-08 194234.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194234.png)
 Virtual Garden section -
-![Project Screenshot](Screenshot 2024-11-08 194515.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194515.png)
 Data card -
-![Project Screenshot](Screenshot 2024-11-08 194304.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194304.png)
 Interactive 3D model of plant -
-![Project Screenshot](Screenshot 2024-11-08 194304.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194304.png)
 Detailed Data Card -
-![Project Screenshot](Screenshot 2024-11-08 195624.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%195624.png)
 Bookmark section -
-![Project Screenshot](Screenshot 2024-11-08 194632.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194632.png)
 Business Page -
-![Project Screenshot](Screenshot 2024-11-08 194753.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194753.png)
 ChatBot(AyushBot) -
-![Project Screenshot](Screenshot 2024-11-08 194846.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%194846.png)
 Virtual Playground -
-![Project Screenshot](Screenshot 2024-11-08 201124.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%201124.png)
 AR experience -
-![Project Screenshot](Screenshot 2024-11-08 201434.png)
+![Project Screenshot](ss/Screenshot%2024-11-08%201434.png)
